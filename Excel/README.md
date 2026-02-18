@@ -29,5 +29,5 @@ I analyzed a ["dirty" dataset](Project1_student_performance_RAW.csv) of high sch
 * **Final Formatting:** I enhanced data readability by bolding headers and freezing the top row.
 
 ## 💡 Key Takeaway
-I believe that **"Garbage In, Garbage Out"**.
+* I believe that **"Garbage In, Garbage Out"**.
 ---
