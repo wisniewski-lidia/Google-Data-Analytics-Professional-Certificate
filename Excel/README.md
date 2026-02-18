@@ -3,7 +3,7 @@ This folder contains spreadsheets, pivot tables, and data cleaning examples usin
 
 ---
 
-## 📂 [Project](Project2_Customer_Data_Cleaning.xlsx): Data Transformation & Recovery
+## 📂 [Project 2](Project2_Customer_Data_Cleaning.xlsx): Data Transformation & Recovery
 In this project, I cleaned a ["dirty" dataset](Project2_Customer_Data_RAW.xlsx) and changed its structure.
 
 ### What I did:
@@ -19,7 +19,7 @@ This project taught me that data cleaning isn't just about following a checklist
 
 ---
 
-## 📂 [Project](Project1_student_performance_cleaning.xlsx): Student Performance (Portugal)
+## 📂 [Project 1](Project1_student_performance_cleaning.xlsx): Student Performance (Portugal)
 I analyzed a ["dirty" dataset](Project1_student_performance_RAW.csv) of high school students to prepare it for academic research.
 
 ### What I did:
