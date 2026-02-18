@@ -3,8 +3,8 @@ This folder contains spreadsheets, pivot tables, and data cleaning examples usin
 
 ---
 
-## 📂 [Project](Excel/Project2_Customer_Data_Cleaning.xlsx): Data Transformation & Recovery
-In this project, I cleaned a ["dirty" dataset] (Excel/Project2_Customer_Data_RAW.xlsx) and changed its structure.
+## 📂 [Project](Project2_Customer_Data_Cleaning.xlsx): Data Transformation & Recovery
+In this project, I cleaned a ["dirty" dataset] (Project2_Customer_Data_RAW.xlsx) and changed its structure.
 
 ### What I did:
 * **Saved valuable data:** The instructions said to delete rows with missing values. However, I noticed that in the last 3 columns, the missing values could be calculated from other cells. I used logic to fill them instead of deleting, preserving important information.
@@ -19,8 +19,8 @@ This project taught me that data cleaning isn't just about following a checklist
 
 ---
 
-## 📂 [Project](Excel/Project1_student_performance_cleaning.xlsx): Student Performance (Portugal)
-I analyzed a ["dirty" dataset](Excel/Project1_student_performance_RAW.csv) of high school students to prepare it for academic research.
+## 📂 [Project](Project1_student_performance_cleaning.xlsx): Student Performance (Portugal)
+I analyzed a ["dirty" dataset](Project1_student_performance_RAW.csv) of high school students to prepare it for academic research.
 
 ### What I did:
 * **Business Logic:** I found students aged 20-22. Since this is a high school dataset, I identified them as outliers and removed them based on school rules.
