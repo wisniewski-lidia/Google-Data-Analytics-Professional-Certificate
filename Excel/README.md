@@ -1,22 +1,32 @@
 # My Excel Projects
 This folder contains spreadsheets, pivot tables, and data cleaning examples using MS Excel.
 
-## Project: Student Performance Data Cleaning
+---
 
-### Scenario
-As a data analyst for a school district in Portugal, I cleaned a dataset containing student grades and background information to ensure accurate analysis of factors affecting academic performance.
+## 📂 Project: Data Transformation & Recovery
+In this project, I cleaned a "dirty" dataset and changed its structure.
 
-### Data Cleaning Steps Performed:
-1. **Sorting & Inspection:** Sorted data by `school` and `age` to identify outliers. Discovered students aged 20-22 in a high school dataset.
-2. **Filtering:** Applied filters to remove 9 rows of incorrect data (students over 19 years old) based on business logic provided by the superintendent.
-3. **Handling Missing Values:** Identified blank cells in the `reason` column. Used the "none_given" placeholder to ensure data completeness for future analysis.
-4. **Data Transformation (Categorical to Numerical):**
-   * Converted parental education levels (`Medu`, `Fedu`) from text to numeric codes (0-4) using **Find and Replace**.
-   * This transformation prepares the data for statistical calculations and machine learning models.
+### What I did:
+* **Saved valuable data:** The instructions said to delete rows with missing values. However, I noticed that in the last 3 columns, the missing values could be calculated from other cells. I used logic to fill them instead of deleting, preserving important information.
+* **Format Change:** I transposed the data from "Long" to "Wide" format to make it better for reporting.
+* **Text Cleaning:** * Used `=TRIM()` to remove hidden spaces (especially the tricky ones from web-imports).
+    * Fixed text casing ('=UPPER()') for Region to make them consistent.
+* **Cleaned Formatting:** Removed all colors and styles to have a "fresh" dataset.
+* **Final Formatting (Readability):** I enhanced data readability by bolding headers, applying borders, and freezing the top row to ensure the dataset remains professional and easy to navigate for stakeholders.
 
-### Tools Used:
-*  MS Excel (Sorting, Filtering, Fill Handle, Find and Replace).
+## 💡 Key Takeaway
+This project taught me that data cleaning isn't just about following a checklist. By looking for patterns, I was able to save data instead of just deleting it. Good formatting is the final touch that makes a "cleaned" file a "professional" report.
 
-### Key Insight from Sorting:
-* **Identification of Outliers:** By simply sorting the `age` column, I discovered a discrepancy between the data and the business context. In a high school setting, students aged 20-22 appeared as anomalies.
-* **Context is King:** This step highlighted that data cleaning isn't just a technical task—it requires understanding the specific domain rules (in this case, the school district's age limits) to maintain **Data Integrity**.
+---
+
+## 📂 Project: Student Performance (Portugal)
+I analyzed a dataset of high school students to prepare it for academic research.
+
+### What I did:
+* **Business Logic:** I found students aged 20-22. Since this is a high school dataset, I identified them as outliers and removed them based on school rules.
+* **Categorical Data:** Converted parental education levels from text into numbers (0-4). This makes the data ready for math models.
+* **Completeness:** Filled missing "reason" fields with "none_given" so the rows stay in the analysis.
+
+## 💡 Key Takeaway
+I believe that **"Garbage In, Garbage Out"**.
+---
