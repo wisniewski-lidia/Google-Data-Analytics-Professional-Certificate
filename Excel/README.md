@@ -4,7 +4,7 @@ This folder contains spreadsheets, pivot tables, and data cleaning examples usin
 ---
 
 ## 📂 [Project](Project2_Customer_Data_Cleaning.xlsx): Data Transformation & Recovery
-In this project, I cleaned a ["dirty" dataset] (Project2_Customer_Data_RAW.xlsx) and changed its structure.
+In this project, I cleaned a ["dirty" dataset](Project2_Customer_Data_RAW.xlsx) and changed its structure.
 
 ### What I did:
 * **Saved valuable data:** The instructions said to delete rows with missing values. However, I noticed that in the last 3 columns, the missing values could be calculated from other cells. I used logic to fill them instead of deleting, preserving important information.
